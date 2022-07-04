@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+body {
+    width: 960px;
+    justify-content: center;
+    }
+
+.menu {
+    background-color: grey;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    width: 100vw;
+}
+
+/* .logo-container {
+    background-image: url(https://cdn.pixabay.com/photo/2022/06/21/21/56/konigssee-7276585_960_720.jpg);
+    height: 100%;
+    width: 100%;
+    } */
+
+.landing {
+    background-image: url(https://cdn.pixabay.com/photo/2022/06/21/21/56/konigssee-7276585_960_720.jpg);
+    background-size: 100vh;
+    }
+
+button {
+    color: white;
+    border: solid 3px white;
+    background-color: none;
+    transition: 1s;
+}
+
+button:hover {
+    background-color: white;
+    color: black;
+}
+
+.menu.button4:disabled {
+    cursor:none;
+}
