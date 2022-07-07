@@ -13,11 +13,11 @@ body {
     width: 100vw;
 }
 
-/* .logo-container {
+.logo-container {
     background-image: url(https://cdn.pixabay.com/photo/2022/06/21/21/56/konigssee-7276585_960_720.jpg);
     height: 100%;
     width: 100%;
-    } */
+    }
 
 .landing {
     background-image: url(https://cdn.pixabay.com/photo/2022/06/21/21/56/konigssee-7276585_960_720.jpg);
